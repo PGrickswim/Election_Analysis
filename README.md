@@ -15,19 +15,36 @@ A Colorado Board of Elections employee has given me the following tasks to compl
 - Software: Python 3.7.6, Visual Studio code 1.63.2
 
 ## Summary
-The results of the election show that:
-1. There were a total of 369,711 votes cast.
-2. Three candidates received votes: Charles Casper Stockham, Diana DeGette, and Anthony Doane
-3. The Candatate received the following number of votes each:
-Charles Casper Stockham: (85,213)
-Diana DeGette: (272,892)
-Raymon Anthony Doane: (11,606)
-4. The percentage of total votes for each candidate were as follows:
-Charles Casper Stockham: 23.05% 
-Diana DeGette: 73.81%
-Raymon Anthony Doane: 3.14% 
-5. The winner of the election, based on the popular vote, was Diana DeGette.
 
-## Challenge Overview
+### There were a total of 369,711 votes cast.
 
-## Challenge Summary
+#### Three candidates received votes: 
+- Charles Casper Stockham
+- Diana DeGette
+- Raymon Anthony Doane
+
+#### The Candatate received the following number of votes each:
+- Charles Casper Stockham: (85,213)
+- **Diana DeGette: (272,892)**
+- Raymon Anthony Doane: (11,606)
+
+#### The percentage of total votes for each candidate were as follows:
+- Charles Casper Stockham: 23.05% 
+- **Diana DeGette: 73.81%**
+- Raymon Anthony Doane: 3.14% 
+
+### The winner of the election, based on the popular vote, was Diana DeGette. 
+### Diana DeGetter Received 272,892 votes, 73.81% of the total vote.
+
+This is all represented in the below image, which is a direct capture of the text file written automatically when running the script.
+
+(![Election_Picture](https://user-images.githubusercontent.com/95391827/149699248-94f6bf4c-86d8-47a2-9107-e9cc51008f30.png)
+
+## Election Audit Summary
+Elections audits must be secure, fair, and accurate. The program utilized to produce this report is very accurate. Risk of human error is minimized by taking the raw data and running a program to determine the results of the election. This program can be applicable to any election, and more complex data can even be interpreted with some modifications to the script. Two examples are described below.
+
+### 1. Results by county
+As you can see in the results text file, the numbe of votes per county appear in the results. In the script, the for statement that tabulates the votes per candidate could be nested within the loop that counts the numbe of votes in each county. This could be helpful to determine any results that may be surprising or possibly erroneous.
+
+### 2. Votes cast as a percentage of registered voters
+With some simple additions to the script initializing the number of registered voters as a value, the data can be leveraged to understand how many votes were cast as a percentage of registered voters. What's more, with a list of census data decribing the number of citizens who are eligible to vote, the script can be leveraged to calculate the percentage of eligible voters who cast a ballot. Using the nesting technique described in "1. Results by county", the script can even be used to show voter turnout by county. Elected officials could use this data to focus on increasing civic participation in the most under-represented counties.
