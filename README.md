@@ -38,7 +38,7 @@ A Colorado Board of Elections employee has given me the following tasks to compl
 
 This is all represented in the below image, which is a direct capture of the text file written automatically when running the script.
 
-(![Election_Picture](https://user-images.githubusercontent.com/95391827/149699248-94f6bf4c-86d8-47a2-9107-e9cc51008f30.png)
+![Election_Picture](https://user-images.githubusercontent.com/95391827/149699248-94f6bf4c-86d8-47a2-9107-e9cc51008f30.png)
 
 ## Election Audit Summary
 Elections audits must be secure, fair, and accurate. The program utilized to produce this report is very accurate. Risk of human error is minimized by taking the raw data and running a program to determine the results of the election. This program can be applicable to any election, and more complex data can even be interpreted with some modifications to the script. Two examples are described below.
